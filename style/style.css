@@ -13,10 +13,37 @@ body {
 
 .container {
        margin: 0 auto;
-       min-width: 900px;
+       max-width: 1360px;
 }
 
 .navbar {
        background-color: #1f2937;
-       color: white;
+       height: 50px;
 }
+
+.navbar .container {
+       display: flex;
+       align-items: center;
+       height: 100%;
+       justify-content: space-between;
+}
+
+.logo {
+       margin-left: 1em;
+       font-size:24px;
+       color: #f9faf8;
+       font-weight: bold;
+}
+
+.navbar ul {
+       list-style-type: none;
+       display: flex;
+       gap: 1em;
+       margin-right: 1em;
+}
+
+.navbar ul a{
+       color: #e5e7eb;
+       font-size: 18px;
+}
+
