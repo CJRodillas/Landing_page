@@ -135,10 +135,14 @@ img {
        background-color: #e5e7eb;
 }
 
+.comment {
+       height: 400px;
+}
+
 .comment .container {
        display: flex;
        flex-direction: column;
-       height: 300px;
+       min-height: 100%;
        align-items: center;
        justify-content: center;
        padding: 25px 50px;
@@ -154,6 +158,39 @@ img {
        font-size: 36px;
        font-style: italic;
        color: #1f2937;
+       font-weight: 300;
+}
+
+.sign-up {
+       height: 200px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+.sign-up .box {
+       background-color: #3882f6;
+       padding: 30px 70px;
+       border-radius: 10px;
+       color: #e5e7eb;
+       display: flex;
+       gap: 10px;
+       width: 800px;
+       justify-content: space-between;
+       align-items: center;
+}
+
+.sign-up button {
+       border: 1px solid #f9faf8;
+       border-radius: 10px;
+       background-color: transparent;
+       color: #f9faf8;
+       padding: 0px 20px;
+       height: 30px;
+       font-weight:bold;
+}
+
+.sign-up h4 {
        font-weight: 300;
 }
 
