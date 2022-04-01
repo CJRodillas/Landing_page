@@ -45,5 +45,6 @@ body {
 .navbar ul a{
        color: #e5e7eb;
        font-size: 18px;
+       text-decoration: none;
 }
 
