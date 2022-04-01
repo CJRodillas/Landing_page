@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 * {
        margin: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-       font-family: 'Roboto';
+       font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -121,7 +121,7 @@ img {
        padding: 10px;
 }
 
-.box {
+ .card .box {
        border-radius: 10px;
        border: 5px solid lightblue;
        height: 148px;
@@ -129,5 +129,31 @@ img {
 }
 .card p {
        text-transform: lowercase;
+}
+
+.comment {
+       background-color: #e5e7eb;
+}
+
+.comment .container {
+       display: flex;
+       flex-direction: column;
+       height: 300px;
+       align-items: center;
+       justify-content: center;
+       padding: 25px 50px;
+}
+
+.comment h4 {
+       align-self: flex-end;
+       font-size:18px;
+       font-weight: bold;
+}
+
+.comment h2 {
+       font-size: 36px;
+       font-style: italic;
+       color: #1f2937;
+       font-weight: 300;
 }
 
