@@ -14,7 +14,6 @@ body {
 .container {
        margin: 0 auto;
        max-width: 1360px;
-       border: 1px solid red;
        padding: 0em 1em;
 }
 
@@ -192,5 +191,14 @@ img {
 
 .sign-up h4 {
        font-weight: 300;
+}
+
+.footer {
+       background-color: #1f2937;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 50px;
+       color: #e5e7eb;
 }
 
